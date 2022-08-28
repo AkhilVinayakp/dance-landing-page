@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body  {
+    overflow: hidden;
+}
+
+
+
+.left-image {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 40vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+.left-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    padding-top: 2em;
+}
+
+.nav-logo img {
+    height: 42px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 120px;
+}
+.links {
+    margin-left: 0px;
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+.line {
+    /* padding:0; */
+    width: 320px;
+    margin-left: 720px;
+    margin-right: 60px;
+    /* border-bottom: 2px solid black; */
+}
+
+article {
+    margin-left: 760px;
+}
+
+.main-heading {
+    /* border: 2px solid black; */
+    padding: 1em;
+}
+
+.heading-line {
+    font-size: 140px;    
+    font-weight: bold;
+}
+.hp1 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.heading-tag {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    /* border: 2px solid blueviolet; */
+}
+.hp2 {
+    margin-left: 220px;
+    font-size: 140px;
+    /* display: inline; */
+    line-height: 0.5em;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.8em;
+    padding-top: 0.5em;
+    font-weight: lighter;
+    color: #7e7e7e;
+    margin-left: 0.7em;
+}
+
+.btn {
+    /* border: 2px solid green; */
+    float: right;
+    margin-right: 6em;
+}
+
+.btn button {
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    color: white;
+    font-size: 1em;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.media-icons {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 240px;
+    justify-content: space-between;
+    width: 60px;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    right: 92px;
+}
