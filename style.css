@@ -43,10 +43,18 @@ nav {
     display: flex;
     width: 20vw;
     justify-content: space-between;
+    font-size: 1.4em;
+    color: #747474;
 }
+
 li {
     list-style: none;
 }
+
+.links li:hover, .selected {
+    color: black;
+}
+
 .line {
     /* padding:0; */
     width: 320px;
@@ -105,7 +113,7 @@ article {
 }
 
 .btn button {
-    margin-top: 1.5em;
+    margin-top: 2.3em;
     padding: 1em 2em;
     color: white;
     font-size: 1em;
@@ -125,4 +133,82 @@ article {
     position: absolute;
     top: 100px;
     right: 92px;
+}
+
+.content {
+    margin-top: 7em;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.left-section {
+    width: 30vw;
+}
+
+.line-vertical {
+    position: absolute;
+    width: 780px;
+    transform: rotate(90deg);
+    bottom: -40px;
+    left: 408px;
+    z-index: -2;
+}
+
+.fac-list {
+    padding: 1em;
+    line-height: 2.5em;
+    font-size:1.8em;
+}
+.fac-list li:first-child{
+    color: rgb(0, 0, 0);
+}
+.fac-list li {
+    color: gray;
+    /* list-style-type: disc; */
+}
+.fac-list li::before {
+    font-size: 0.8em;
+    content: '\2B24 ';
+    list-style-position: outside;
+    margin-right: 12px;
+}
+
+.right-section {
+    /* border: 2px solid green; */
+    margin-left: auto;
+    margin-right: 12em;
+    padding: 4em;
+}
+
+.bold-q {
+    font-size: 1.5em;
+}
+
+.bold-q::before {
+    display: block;
+    content: '\201D';
+    font-size: 5em;
+    line-height: 20px;
+}
+.img-container {
+    width: auto;
+    height: 260px;
+    padding-top: 1em;
+}
+
+.img-container img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-icon {
+    position: absolute;
+    bottom:71px;
+    right: 19px;
+    transform: rotate(90deg);
+}
+
+.arrow-icon img {
+    height: 107px;
+    width: 217px;
 }
