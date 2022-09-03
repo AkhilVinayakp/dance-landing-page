@@ -212,3 +212,87 @@ article {
     height: 107px;
     width: 217px;
 }
+
+/* Mobile Styling */
+@media only screen and (max-width: 428px){
+    body{
+        overflow: auto;
+    }
+    .left-image {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+    }
+    nav {
+        padding: 1em;
+        position: absolute;
+        top: 12px;
+    }
+    .links {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+    article{
+        margin:1px;
+    }
+    .main-heading {
+        margin-top: 1em;
+        /* border: 2px solid red; */
+    }
+    .heading-line {
+        font-size: 72px;
+    }
+
+    .hp2 {
+        padding-left: 2em;
+        font-size: 72px;
+        margin-left: 0px;
+    }
+    .heading-tag {
+        flex-direction: column;
+    }
+    .tags {
+        /* color: white; */
+        flex-direction: row;
+        gap: 0.3em;
+    }
+    .arrow-icon {
+        display: none;
+    }
+    .media-icons {
+        height: 40vh;
+        right: 12px;
+    }
+    .media-item {
+        background-color: white;
+        border-radius: 50%;
+        width: 56px;
+        height: 56px;
+        text-align: center;
+        line-height: 70px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-section {
+        width: 90%;
+        /* text-align: center; */
+        /* border: 2px solid red; */
+    }
+    .fac-list {
+        padding-left: 2.3em;
+        /* padding-right: 3em; */
+    }
+    .right-section{
+        margin-right: auto;
+        margin-bottom: 12px;
+        padding: 1em;
+    }
+    .line-vertical {
+        display: none;
+    }
+}
